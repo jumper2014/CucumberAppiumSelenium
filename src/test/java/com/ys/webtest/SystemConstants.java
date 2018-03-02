@@ -9,9 +9,9 @@ import com.ys.util.Path;
 public final class SystemConstants {
 
 
-    public final static String USER = "xmtv";
-    public final static String PASSWORD = "Hello1234";
-    public final static String BOSSURL = "http://panel.shangcdn.com";
+    public final static String USER = "user";
+    public final static String PASSWORD = "passwd";
+    public final static String BOSSURL = "http://panel.site.com";
 
 
 }
