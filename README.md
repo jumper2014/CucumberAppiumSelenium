@@ -1,19 +1,23 @@
 # Maven + Cucumber + TestNG + Appium
+- A BDD framework based on Maven, cucumber and TestNG
+- Support app test (Appium)
+- support web test (Selenium)
 
 
-#### run test
+#### How to run test
 * mvn clean test -Papptest
 * mvn clean test -Pwebtest
 
-#### Appium API
+#### Appium API sample
  * removeApp, installApp, startActivity, isAppInstalled
  * swipe, tap, click
  * findElementsById
  
- #### 备用
+
+ #### Backup
  * run samples
  * cd CucumberTestNgFramework/src/test 
-* 下面的冒号:在windows上需要替换成分号;
+ * replace : with ; on windows
  * java -cp "jars/*" cucumber.api.cli.Main -p pretty --snippets camelcase .
  * java -cp "jars/*:." cucumber.api.cli.Main -p pretty --snippets camelcase -g step_definitions features
  * java -cp "jars/*:." cucumber.api.cli.Main -p progress --snippets camelcase -g step_definitions features
